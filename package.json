@@ -1,0 +1,15 @@
+{
+  "name": "DroplrBackup",
+  "version": "1.0.0",
+  "description": "Tool for backuping a Droplr account",
+  "main": "scraper.js",
+  "dependencies": {
+    "async": "~0.2.9",
+    "lodash": "~2.4.1",
+    "request": "~2.33.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
+  "license": "BSD"
+}
