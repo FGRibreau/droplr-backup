@@ -7,15 +7,15 @@ How to backup your Droplr account (before they discontinue your free account)
 
 ### Usage (tested only on Google Chrome/MacOS)
 
-1/ [Connect to droplr.com](https://droplr.com/login).
-2/ Once connected, open the JavaScript console.
-3/ Copy/Paste the `console_script.js` script content into the console and press enter.
-4/ Depending on the number of drops it may takes some time before displaying "Done!...".
-5/ Copy/paste and run the command displayed in the console.
-6/ `cd DroplrBackup/ && npm install && open .`
-7/ Edit `droplr_code.js`, paste your own drop codes.
-7/ run `node scraper.js` to start exporting data.
-8/ See below:
+- [Connect to droplr.com](https://droplr.com/login).
+- Once connected, open the JavaScript console.
+- Copy/Paste the `console_script.js` script content into the console and press enter.
+- Depending on the number of drops it may takes some time before displaying "Done!...".
+- Copy/paste and run the command displayed in the console.
+- `cd DroplrBackup/ && npm install && open .`
+- Edit `droplr_code.js`, paste your own drop codes.
+- run `node scraper.js` to start exporting data.
+- See below:
 
 ### It works! Awesome men, you saved me hours of work! Thank you!
 
