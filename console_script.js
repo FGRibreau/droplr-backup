@@ -17,12 +17,14 @@ function fetchNext() {
     remove: !1,
     success: function(t, n) {
       coll.offset += amount;
-      if (n.length !== 0) {
-        console.log('Loading...', coll.offset);
+      if (coll.offset === amount) {
+        alert('Loading... Press <enter> to continue.');
+      }
+      if (n && n.length !== 0) {
         setTimeout(fetchNext, 100);
       } else {
-        console.log('Done! Now copy/paste and run the following command:');
-        console.log('copy(JSON.stringify(coll.pluck(\'code\'), null, 2));console.log("Drops successfully copied to clipboard!");')
+        alert('Done! Now copy/paste and run the following command:');
+        alert('copy(JSON.stringify(coll.pluck(\'code\'), null, 2));alert("Drops successfully copied to clipboard!");')
       }
     }
   })
